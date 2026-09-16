@@ -1,1 +1,312 @@
-# star-atlas
+# Jacky’s Star Atlas / GitHub 中英文工具目錄
+
+公開精選版 / Public collection · 2026-09-16 · **187 repositories**
+
+介面支援繁體中文、English、中英雙語，以及分類、搜尋、排序、來源及優先級篩選。
+The interface supports Traditional Chinese, English and bilingual modes, with category, search, sorting, origin and priority filters.
+
+「新發現 / Discovered」表示本輪新加入目錄，不代表新成立的 repo，也不表示已替使用者 Star。
+Discovered means newly added to this catalog, not newly created or automatically starred.
+
+P1：優先評估；P2：按需求評估；Reference：歷史或低更新頻率參考；Exploratory：探索性研究。優先級是編輯判斷，不是實測排名。
+P1: evaluate first; P2: evaluate as needed; Reference: historical/low-update reference; Exploratory: unvalidated research. Priorities are editorial, not benchmark rankings.
+
+新項目核對官方 repository metadata 與 README 片段（最多前 24,000 字元）；最近推送不等於最近實質維護。未安裝或執行專案，未測試回報或預測準確度。
+New entries were reviewed through official metadata and README excerpts (up to 24,000 characters). Last push is not proof of substantive maintenance. Projects were not installed or executed; returns and predictive accuracy were not tested.
+
+[網站 / Website](https://jacbus1.github.io/star-atlas/) · [JSON](catalog.json) · [CSV](catalog.csv)
+
+## 程式開發與工具 / Development tools (19)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 結合規則與 LLM 進行程式碼審查，定位潛在錯誤及安全問題。 | Hybrid rule-based and LLM code review. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator) | 規劃、執行及監督多個程式開發代理，追蹤至合併階段。 | Coordinate coding agents from planning to merge. | starred / Saved | Apache-2.0 | 2026-09-16 |
+| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 利用 AI 開發代理重建網站的專案模板。 | A template for recreating websites with coding agents. | starred / Saved | MIT | 2026-08-14 |
+| [stablyai/orca](https://github.com/stablyai/orca) | 管理多個並行開發代理的桌面與遠端工作環境。 | A workspace for supervising parallel coding agents. | starred / Saved | MIT | 2026-09-16 |
+| [JoshuaWang2211/ai-quota-deck](https://github.com/JoshuaWang2211/ai-quota-deck) | 在 Windows 系統匣查看多家 AI 開發工具的用量額度。 | A Windows tray dashboard for AI usage quotas. | starred / Saved | MIT | 2026-09-07 |
+| [cychien/eztweak](https://github.com/cychien/eztweak) | 在正在運行的網頁上標註 UI 修改需求。 | Annotate a live interface to request UI changes. | starred / Saved | MIT | 2026-09-15 |
+| [b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed) | 非官方重建與擴充的 macOS Grok Bot 專案。 | An unofficial reconstruction of a macOS Grok bot. | starred / Saved | Unknown | 2026-08-23 |
+| [charliie-dev/claude-code-hidden-settings](https://github.com/charliie-dev/claude-code-hidden-settings) | 整理 Claude Code 未明顯顯示的設定選項。 | A collection of less-visible Claude Code settings. | starred / Saved | MIT | 2026-08-22 |
+| [0xGF/boneyard](https://github.com/0xGF/boneyard) | 自動產生介面載入時的骨架佔位效果。 | Generate skeleton-loading UI placeholders. | starred / Saved | MIT | 2026-08-31 |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 壓縮常見開發指令輸出，減少送入 LLM 的文字量。 | Reduce coding-agent context by compacting CLI output. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 開源 AI 程式開發代理。 | An open-source coding agent. | starred / Saved | MIT | 2026-09-16 |
+| [Aider-AI/aider](https://github.com/Aider-AI/aider) | 終端機 AI 配對編程工具，可讀取及修改 Git 專案檔案。 | A terminal-based AI pair programmer that edits files in Git projects. | discovered / P2 | Apache-2.0 | 2026-05-22 |
+| [astral-sh/uv](https://github.com/astral-sh/uv) | Python 套件與專案管理工具，處理依賴、虛擬環境及執行。 | A Python package and project manager for dependencies, environments and execution. | discovered / P1 | MIT OR Apache-2.0 | 2026-09-16 |
+| [astral-sh/ruff](https://github.com/astral-sh/ruff) | 以 Rust 實作的 Python lint 與格式化工具。 | A Rust-based Python linter and formatter. | discovered / P1 | MIT | 2026-09-15 |
+| [continuedev/continue](https://github.com/continuedev/continue) | 可客製的 AI 開發助手，整合模型與開發工作流。 | A customizable AI development assistant with model and workflow integrations. | discovered / Reference | Apache-2.0 | 2026-09-15 |
+| [microsoft/playwright](https://github.com/microsoft/playwright) | 跨瀏覽器自動化與端對端測試工具，可檢查網站互動。 | Cross-browser automation and end-to-end testing for website interactions. | discovered / P1 | Apache-2.0 | 2026-09-15 |
+| [marimo-team/marimo](https://github.com/marimo-team/marimo) | 反應式 Python Notebook，可將分析轉為可重現腳本與互動應用。 | A reactive Python notebook for reproducible scripts and interactive applications. | discovered / P1 | Apache-2.0 | 2026-09-15 |
+| [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | 終端機 Git 圖形介面，簡化差異檢查、暫存與提交操作。 | A terminal UI for reviewing diffs, staging changes and managing Git commits. | discovered / P2 | MIT | 2026-09-15 |
+| [casey/just](https://github.com/casey/just) | 以簡潔設定檔保存常用開發指令，統一專案操作。 | A command runner for keeping common project tasks in a concise configuration file. | discovered / P2 | CC0-1.0 | 2026-09-01 |
+
+## 模型、推論與路由 / Models, inference & routing (11)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [a-ghorbani/pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) | 在手機本機運行語言模型，提供行動 AI 對話介面。 | Run language models locally on a phone. | starred / Saved | MIT | 2026-09-13 |
+| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 統一多家模型供應商的 API 閘道，處理路由、配額及備援。 | A unified model API gateway with routing and fallback. | starred / Saved | MIT | 2026-09-15 |
+| [Panniantong/sub2api](https://github.com/Panniantong/sub2api) | 將多家 AI 訂閱服務整合成統一中轉介面。 | Unify multiple AI subscriptions through a proxy service. | starred / Saved | LGPL-3.0 | 2026-09-09 |
+| [exeex/edge-cores](https://github.com/exeex/edge-cores) | 研究從 PyTorch 模型到客製 ASIC 的部署流程。 | A path from PyTorch models to custom ASICs. | starred / Saved | Apache-2.0 | 2026-09-13 |
+| [miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web) | 非官方 ChatGPT 網頁介面與 Codex 模型連接專案。 | An unofficial ChatGPT Web integration for Codex. | starred / Saved | MIT | 2026-09-08 |
+| [danveloper/flash-moe](https://github.com/danveloper/flash-moe) | 探索在記憶體有限的筆電上運行大型混合專家模型。 | Explore running large mixture-of-experts models on laptops. | starred / Saved | Unknown | 2026-03-19 |
+| [p-e-w/heretic](https://github.com/p-e-w/heretic) | 研究自動調整語言模型拒答行為的工具。 | Tools for changing language-model refusal behavior. | starred / Saved | AGPL-3.0 | 2026-09-05 |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 在本機執行及訓練語言與擴散模型的工具。 | Run and train language and diffusion models locally. | starred / Saved | Apache-2.0 | 2026-09-16 |
+| [ulab-uiuc/LLMRouter](https://github.com/ulab-uiuc/LLMRouter) | 依任務需要在不同語言模型之間分配請求。 | Route requests between language models. | starred / Saved | MIT | 2026-09-09 |
+| [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) | 供手機等裝置理解圖片及影片的小型多模態模型。 | Small multimodal models for image and video understanding. | starred / Saved | Apache-2.0 | 2026-09-08 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 提高語言模型推論吞吐量與記憶體利用率的服務引擎。 | Efficient language-model inference and serving. | starred / Saved | Apache-2.0 | 2026-09-15 |
+
+## 商業應用與基礎工具 / Business apps & utilities (10)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis) | 桌面 SQL 工作台，管理多種資料庫、查詢及執行計劃。 | A desktop SQL workspace for multiple databases. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | 可自行架設的 CRM，用於管理客戶與銷售流程。 | An open CRM for customer and sales management. | starred / Saved | NOASSERTION | 2026-09-15 |
+| [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | 整合 WhatsApp 與 AI 代理的自架銷售 CRM。 | Self-hosted sales CRM with WhatsApp and AI agents. | starred / Saved | MIT | 2026-09-15 |
+| [JacobLinCool/GPTD](https://github.com/JacobLinCool/GPTD) | 以資料中心及 LLM 推論概念為背景的塔防遊戲。 | A tower-defense game inspired by LLM infrastructure. | starred / Saved | MIT | 2026-06-24 |
+| [ln-dev7/circle](https://github.com/ln-dev7/circle) | 以 Linear 為靈感的專案管理介面，追蹤議題、專案及團隊。 | A Linear-inspired project-management interface. | starred / Saved | MIT | 2026-09-04 |
+| [martinzha28/yhack](https://github.com/martinzha28/yhack) | 協助新員工理解公司資訊與自身角色的入職工具。 | An onboarding tool for understanding company context. | starred / Saved | Unknown | 2026-06-03 |
+| [croffasia/itsaplan](https://github.com/croffasia/itsaplan) | 可自行架設的專案及議題追蹤工具，支援人與 AI 協作。 | Self-hosted project and issue tracking for people and agents. | starred / Saved | AGPL-3.0 | 2026-09-15 |
+| [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 透過命令列及 AI 代理讀寫 Word、Excel 和 PowerPoint。 | Read and automate Office documents through a CLI. | starred / Saved | Apache-2.0 | 2026-09-14 |
+| [fathyb/carbonyl](https://github.com/fathyb/carbonyl) | 在終端機中運行 Chromium 網頁瀏覽器。 | Run Chromium inside a terminal. | starred / Saved | BSD-3-Clause | 2024-07-01 |
+| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | 單一執行檔的即時後端，用於快速建立資料與帳戶服務。 | A single-file realtime application backend. | starred / Saved | MIT | 2026-09-15 |
+
+## AI 代理與助理 / AI agents & assistants (25)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | 可自行架設的多模型聊天平台，整合工具、代理及多人登入。 | Self-hosted multi-model chat with agents and tools. | starred / Saved | MIT | 2026-09-15 |
+| [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 群體代理模擬引擎；預測效果須另行驗證。 | A swarm-agent simulation engine; predictive claims are unverified. | starred / Saved | AGPL-3.0 | 2026-09-03 |
+| [a2aproject/A2A](https://github.com/a2aproject/A2A) | 讓不同 AI 代理交換資訊與協作的通訊協定。 | A protocol for communication between AI agents. | starred / Saved | Apache-2.0 | 2026-09-14 |
+| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 管理工作中的多個 AI 代理與其任務。 | Manage AI agents and their work. | starred / Saved | MIT | 2026-09-15 |
+| [taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp) | 透過 MCP 及命令列操作 Google Workspace 應用。 | Control Google Workspace through MCP and a CLI. | starred / Saved | MIT | 2026-09-15 |
+| [Arvincreator/project-golem](https://github.com/Arvincreator/project-golem) | 作業系統層級 AI 代理，整合記憶、排程及多代理協作。 | An OS-level assistant with memory and scheduling. | starred / Saved | NOASSERTION | 2026-06-22 |
+| [karpathy/llm-council](https://github.com/karpathy/llm-council) | 讓多個語言模型共同審視並回答問題。 | Combine multiple language models to assess questions. | starred / Saved | Unknown | 2025-11-22 |
+| [accomplish-ai/coworker](https://github.com/accomplish-ai/coworker) | AI coworker 專案；README 明確表示已停止支援。 | An AI coworker project whose README says support has ended. | starred / Saved | Unknown | 2026-08-13 |
+| [akshayaggarwal99/jarvis-ai-assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant) | Mac 上的語音 AI 助理。 | A voice-powered AI assistant for Mac. | starred / Saved | MIT | 2026-08-21 |
+| [KKshitiz/J.A.R.V.I.S](https://github.com/KKshitiz/J.A.R.V.I.S) | 以 Jarvis 為概念的個人虛擬助理。 | A Jarvis-inspired personal virtual assistant. | starred / Saved | MIT | 2020-08-12 |
+| [sukeesh/Jarvis](https://github.com/sukeesh/Jarvis) | Linux 與 macOS 個人助理。 | A personal assistant for Linux and macOS. | starred / Saved | MIT | 2025-12-01 |
+| [kishanrajput23/Jarvis-Desktop-Voice-Assistant](https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant) | Python 桌面語音助理，整合語音辨識與系統指令。 | A Python desktop voice assistant with system integration. | starred / Saved | MIT | 2026-01-20 |
+| [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) | 以容器隔離執行的個人代理，整合訊息平台及排程。 | A container-isolated personal agent with messaging integrations. | starred / Saved | MIT | 2026-09-15 |
+| [snakeying/GPT-Telegram-Worker](https://github.com/snakeying/GPT-Telegram-Worker) | 部署於 Cloudflare Workers 的多模型 Telegram AI 機器人。 | A multi-model Telegram bot on Cloudflare Workers. | starred / Saved | Unknown | 2025-06-07 |
+| [yym68686/ChatGPT-Telegram-Bot](https://github.com/yym68686/ChatGPT-Telegram-Bot) | 支援多模型及網路搜尋的 Telegram AI 聊天機器人。 | A Telegram chatbot with multiple models and web search. | starred / Saved | GPL-3.0 | 2026-04-06 |
+| [xxynet/KiraAI](https://github.com/xxynet/KiraAI) | 將 LLM 與多個聊天平台連接的模組化 AI 助理。 | A modular AI assistant connected to chat platforms. | starred / Saved | AGPL-3.0 | 2026-09-15 |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 輕量自架個人代理框架，整合記憶、工具及聊天平台。 | A lightweight self-hosted personal AI agent framework. | starred / Saved | MIT | 2026-09-15 |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 以狀態圖組織長時間、多步驟代理流程，支援中斷與人工介入。 | Build stateful, long-running agent workflows with checkpoints and human intervention. | discovered / P1 | MIT | 2026-09-15 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 以型別驗證建立 Python 代理，約束模型輸出與工具介面。 | Build Python agents with typed outputs, validation and structured tool interfaces. | discovered / P1 | MIT | 2026-09-16 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | 輕量代理框架，讓模型透過程式碼或工具完成任務。 | A lightweight framework for agents that solve tasks through code and tools. | discovered / P2 | Apache-2.0 | 2026-08-25 |
+| [agno-agi/agno](https://github.com/agno-agi/agno) | 建立具工具、記憶與知識來源的代理及協作團隊。 | Build agents and teams with tools, memory and knowledge integrations. | discovered / P2 | Apache-2.0 | 2026-09-15 |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 以角色與任務組織多代理協作，建立可重複的工作流程。 | Organize role-based agents and tasks into repeatable collaborative workflows. | discovered / P2 | MIT | 2026-09-15 |
+| [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | OpenAI Python 代理 SDK，提供工具、交接與執行追蹤。 | A Python SDK for agents with tools, handoffs and execution tracing. | discovered / P1 | MIT | 2026-09-15 |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 建立單一代理及多代理工作流的 Microsoft 框架。 | A Microsoft framework for building individual agents and multi-agent workflows. | discovered / P1 | MIT | 2026-09-15 |
+| [microsoft/autogen](https://github.com/microsoft/autogen) | 以對話協作方式組織多代理應用；採用前需核對維護及遷移指引。 | Build conversational multi-agent applications; review maintenance and migration guidance before adoption. | discovered / Reference | MIT code / CC-BY-4.0 docs | 2026-04-15 |
+
+## 金融、量化與交易 / Finance, quant & trading (34)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | 金融研究終端，整合市場分析、投資研究及經濟資料。 | Market analytics and investment research terminal. | starred / Saved | NOASSERTION | 2026-09-08 |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 以 AI 代理輔助交易研究與操作流程。 | AI agents for trading workflows. | starred / Saved | MIT | 2026-09-14 |
+| [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) | 以多代理協作建立市場分析、風控及交易自動化流程。 | Multi-agent market analysis, risk management and trading. | starred / Saved | MIT | 2026-05-11 |
+| [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | 跨市場交易代理，整合市場掃描、交易執行與風控。 | An AI trading agent spanning multiple markets. | starred / Saved | MIT | 2026-09-12 |
+| [nftechie/stonkfly](https://github.com/nftechie/stonkfly) | 結合果蠅神經連接模擬、實驗記憶及交易操作的研究專案。 | Experimental fly-connectome simulation with trading integrations. | starred / Saved | MIT | 2026-09-10 |
+| [fidetolabs/qanat](https://github.com/fidetolabs/qanat) | 將量化策略研究與回測組成可執行的工作流圖。 | Build and backtest quantitative workflows as graphs. | starred / Saved | MIT | 2026-09-14 |
+| [anthropics/financial-services](https://github.com/anthropics/financial-services) | Anthropic 金融服務代理、技能及資料連接器，支援研究與分析工作。 | Financial-services agents, skills and data connectors. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [MikeChongCan/cfo-stack](https://github.com/MikeChongCan/cfo-stack) | 個人與企業財務及稅務分析的 AI 工作流。 | AI workflows for personal and business finance. | starred / Saved | NOASSERTION | 2026-04-03 |
+| [Limex-com/ziplime](https://github.com/Limex-com/ziplime) | 以 Polars 建立回測與實盤交易引擎，提供 MCP 介面。 | A Polars-based backtesting and live-trading engine. | starred / Saved | GPL-3.0 | 2026-09-15 |
+| [wesson9527/chokepoint-atlas](https://github.com/wesson9527/chokepoint-atlas) | 分析 AI 等產業供應鏈瓶頸，整理證據、候選公司及研究報告。 | Research supply-chain bottlenecks and supporting investment evidence. | starred / Saved | Unknown | 2026-06-03 |
+| [PatrickSUDO/fadacai-portfolio](https://github.com/PatrickSUDO/fadacai-portfolio) | 以技能、MCP 及投資論點紀錄管理研究與投資組合。 | Investment research and portfolio workflows with thesis tracking. | starred / Saved | MIT | 2026-09-15 |
+| [Polymarket/agents](https://github.com/Polymarket/agents) | 透過 AI 代理研究及操作 Polymarket 預測市場。 | AI agents for Polymarket research and trading. | starred / Saved | MIT | 2024-11-05 |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 以多個 LLM 代理協作處理金融交易研究。 | Multi-agent LLM workflows for financial trading research. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [0xemmkty/QuantMuse](https://github.com/0xemmkty/QuantMuse) | 整合量化分析、即時資料與風險管理的交易系統。 | A quantitative trading and risk-analysis system. | starred / Saved | MIT | 2025-07-29 |
+| [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) | 涵蓋研究、進出場與持倉管理的多資產 AI 交易代理。 | A multi-asset trading agent covering research and positions. | starred / Saved | AGPL-3.0 | 2026-09-15 |
+| [Zdong104/FNSPID_Financial_News_Dataset](https://github.com/Zdong104/FNSPID_Financial_News_Dataset) | 金融新聞與時間序列研究資料集。 | A dataset for financial news and time-series research. | starred / Saved | NOASSERTION | 2025-07-24 |
+| [virattt/dexter](https://github.com/virattt/dexter) | 執行深入金融研究的自主 AI 代理。 | An autonomous agent for financial research. | starred / Saved | Unknown | 2026-08-04 |
+| [tstewart161/Reddit_Sentiment_Trader](https://github.com/tstewart161/Reddit_Sentiment_Trader) | 收集 Reddit 交易討論中的股票代號及熱度，使用 VADER 分析情緒。 | Collect stock mentions and analyze Reddit trading sentiment. | starred / Saved | Unknown | 2022-02-26 |
+| [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | 面向金融應用的開源語言模型與相關研究工具。 | Open language models and tools for finance. | starred / Saved | MIT | 2026-09-14 |
+| [AndreasLM03/fng-collector](https://github.com/AndreasLM03/fng-collector) | 定期收集 CNN 恐懼與貪婪指數並發送門檻提醒。 | Collect the Fear and Greed Index and send threshold alerts. | starred / Saved | Unknown | 2026-07-02 |
+| [ronik-v/Investing-Telegram-Bot](https://github.com/ronik-v/Investing-Telegram-Bot) | 以 Telegram 建構投資組合並查看股價走勢。 | A Telegram bot for portfolio construction and stock charts. | starred / Saved | Apache-2.0 | 2024-10-25 |
+| [alighazi/price_alert_bot](https://github.com/alighazi/price_alert_bot) | 透過 Telegram 設定加密貨幣價格提醒及查詢圖表。 | Cryptocurrency price alerts and charts through Telegram. | starred / Saved | GPL-3.0 | 2026-04-13 |
+| [ebellocchia/telegram_crypto_price_bot](https://github.com/ebellocchia/telegram_crypto_price_bot) | 透過 Telegram 查詢加密貨幣價格與圖表。 | Cryptocurrency prices and charts through Telegram. | starred / Saved | MIT | 2026-02-27 |
+| [shenxuan752/ai-multi-ma-elliott-wave-trading-bot-oct24](https://github.com/shenxuan752/ai-multi-ma-elliott-wave-trading-bot-oct24) | 多重均線及艾略特波浪策略回測；宣稱報酬未獨立驗證。 | A moving-average and Elliott-wave strategy backtester. | starred / Saved | Unknown | 2025-10-24 |
+| [constverum/Quantdom](https://github.com/constverum/Quantdom) | 具有圖形介面的 Python 交易策略回測及市場分析框架。 | A Python GUI for strategy backtesting and market analysis. | starred / Saved | Apache-2.0 | 2022-07-06 |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 以金融市場序列為對象的基礎模型研究。 | A foundation model for financial market sequences. | starred / Saved | MIT | 2026-04-13 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | 金融資料整合平台，統一取得市場與基本面資料，用於研究儀表板。 | A financial data platform for integrating market and fundamental data into research workflows. | discovered / P1 | AGPLv3 (README) | 2026-09-14 |
+| [polakowo/vectorbt](https://github.com/polakowo/vectorbt) | 以向量化方式研究及回測交易策略，方便批量比較參數。 | Vectorized strategy research and backtesting for comparing many parameter combinations. | discovered / P2 | Apache-2.0 + Commons Clause | 2026-08-02 |
+| [ranaroussi/quantstats](https://github.com/ranaroussi/quantstats) | 分析策略收益、回撤與風險指標，產生績效報告。 | Analyze returns, drawdowns and risk metrics, and generate strategy performance reports. | discovered / P1 | Apache-2.0 | 2026-07-20 |
+| [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 事件驅動交易引擎，讓研究、回測與實盤使用一致策略架構。 | An event-driven engine supporting a shared strategy architecture for backtesting and live trading. | discovered / P1 | LGPL-3.0 | 2026-09-15 |
+| [microsoft/qlib](https://github.com/microsoft/qlib) | AI 量化研究平台，整合金融資料、模型訓練與策略評估。 | An AI-oriented quantitative research platform covering data, model training and strategy evaluation. | discovered / P1 | MIT | 2026-09-02 |
+| [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | 多資產演算法交易引擎，用於本機研究、回測及實盤整合。 | A multi-asset algorithmic trading engine for research, backtesting and live integrations. | discovered / P2 | Apache-2.0 | 2026-09-15 |
+| [kernc/backtesting.py](https://github.com/kernc/backtesting.py) | 精簡 Python 回測框架，適合測試規則型交易策略與參數。 | A compact Python framework for testing rule-based trading strategies and parameters. | discovered / P2 | AGPL-3.0 | 2026-08-05 |
+| [ccxt/ccxt](https://github.com/ccxt/ccxt) | 統一多間加密貨幣交易所的行情與交易 API。 | A unified API library for cryptocurrency exchange market data and trading. | discovered / P2 | MIT | 2026-09-15 |
+
+## 技能、提示與設計 / Skills, prompts & design (22)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [mars-tw/open-seo-advisor-skill](https://github.com/mars-tw/open-seo-advisor-skill) | SEO 顧問技能，用於網站健檢、修復與內容規劃。 | SEO audits, fixes and content planning skills. | starred / Saved | Apache-2.0 | 2026-07-22 |
+| [rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes) | 為 Hermes Agent 提供開發工作流、記憶及模型最佳化插件。 | Coding, memory and workflow plugins for Hermes Agent. | starred / Saved | MIT | 2026-09-15 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 為 AI 開發工具提供 UI／UX 設計規則與參考。 | UI and UX design guidance for coding agents. | starred / Saved | MIT | 2026-09-15 |
+| [antonio-clicktoclose/hormozi-claude-code-brain](https://github.com/antonio-clicktoclose/hormozi-claude-code-brain) | 將商業經營框架整理成 AI 顧問提示與操作手冊。 | Business-advisor playbooks and prompts for coding agents. | starred / Saved | Unknown | 2026-09-02 |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 代理開發技能與工作流系統，涵蓋記憶、研究及安全。 | Skills, memory and workflows for agent-assisted development. | starred / Saved | MIT | 2026-09-15 |
+| [openai/skills](https://github.com/openai/skills) | OpenAI 的 Codex 技能目錄，擴充代理可執行的工作。 | OpenAI's catalog of skills for Codex. | starred / Saved | Unknown | 2026-09-08 |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 提供簡化實作及減少不必要程式碼的代理工作原則。 | Agent guidance for simpler software implementations. | starred / Saved | MIT | 2026-09-14 |
+| [Nanako0129/sepia](https://github.com/Nanako0129/sepia) | 改善 AI 文字的敘事結構、語氣及專業寫作適配度。 | Improve narrative structure and reduce formulaic AI prose. | starred / Saved | MIT | 2026-09-15 |
+| [nai0om/buddhist-method](https://github.com/nai0om/buddhist-method) | 將佛教認識論原則轉為減少幻覺與追查根因的開發技能。 | Epistemic principles for grounded reasoning and debugging. | starred / Saved | MIT | 2026-05-08 |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 生成可驗證的架構與工作流程圖，輸出互動 HTML。 | Create architecture and workflow diagrams as HTML artifacts. | starred / Saved | MIT | 2026-09-15 |
+| [plannotator/effective-html](https://github.com/plannotator/effective-html) | 製作 HTML 文件、線框圖、原型與流程圖的代理技能。 | Skills for HTML artifacts, prototypes and diagrams. | starred / Saved | MIT | 2026-09-14 |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 為 AI 開發工具提供一致的介面設計語言。 | A design language for AI coding tools. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [zachahn/vomit](https://github.com/zachahn/vomit) | 使用另一個 LLM 精簡 Claude 輸出的冗長文字。 | Use a second model to shorten verbose Claude output. | starred / Saved | GPL-3.0 | 2026-09-09 |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 工程師使用的 AI 代理技能集合。 | Practical agent skills for software engineers. | starred / Saved | MIT | 2026-09-15 |
+| [obra/superpowers](https://github.com/obra/superpowers) | 以技能組織代理軟體開發方法與執行流程。 | A skills-based software-development workflow. | starred / Saved | MIT | 2026-09-14 |
+| [endman100/skill-always-ask-next](https://github.com/endman100/skill-always-ask-next) | 要求代理完成任務後提供下一步選項的技能。 | A skill that prompts for next steps after task completion. | starred / Saved | Unknown | 2026-04-21 |
+| [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) | Codex 專業子代理設定集合。 | A collection of specialized Codex subagents. | starred / Saved | MIT | 2026-09-14 |
+| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | Claude Code 專業子代理設定集合。 | A collection of specialized Claude Code subagents. | starred / Saved | MIT | 2026-09-14 |
+| [LichAmnesia/GPT-Prompt-Hub](https://github.com/LichAmnesia/GPT-Prompt-Hub) | 社群整理的 GPT 提示詞集合。 | A community collection of GPT prompts. | starred / Saved | MIT | 2026-04-19 |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Claude 技能、資源與工具的整理目錄。 | A curated directory of Claude skills and resources. | starred / Saved | Unknown | 2026-08-10 |
+| [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 代理技能、教學與指南的資源目錄。 | A directory of agent skills and tutorials. | starred / Saved | MIT | 2026-04-05 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Anthropic 官方公開的代理技能集合。 | Anthropic's public collection of agent skills. | starred / Saved | Unknown | 2026-09-10 |
+
+## 圖像、影片與語音 / Images, video & audio (7)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [CuteOwOwO/visual-style-evolve](https://github.com/CuteOwOwO/visual-style-evolve) | 透過參考圖與 A/B 比較收斂畫風，輸出可重用提示詞與風格規則。 | Refine reusable visual-style prompts through image comparisons. | starred / Saved | Unknown | 2026-09-13 |
+| [duixcom/Duix-Avatar](https://github.com/duixcom/Duix-Avatar) | 離線生成數位人影片及人物分身的工具組。 | Offline digital-avatar video generation. | starred / Saved | NOASSERTION | 2026-04-21 |
+| [Vincentwei1021/video-talkcraft](https://github.com/Vincentwei1021/video-talkcraft) | 將配音轉為動態解說影片，整合字幕時序及 Remotion。 | Create motion-design videos synchronized with voiceovers. | starred / Saved | NOASSERTION | 2026-09-15 |
+| [POUND0423/AI-drama-pound](https://github.com/POUND0423/AI-drama-pound) | 以繁體中文創作及修改短劇，涵蓋角色、分場、對白與反轉。 | Write and revise Traditional Chinese short-drama scripts. | starred / Saved | MIT | 2026-08-26 |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 根據主題或關鍵字自動生成短影片。 | Generate short videos from topics or keywords. | starred / Saved | MIT | 2026-09-15 |
+| [Hao0321/video-autopilot-kit](https://github.com/Hao0321/video-autopilot-kit) | 以 CapCut JSON 與 ffmpeg 組織短影片自動化流程。 | A short-video automation framework using CapCut and ffmpeg. | starred / Saved | MIT | 2026-08-27 |
+| [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 以少量語音資料進行聲音複製及文字轉語音。 | Few-shot voice cloning and text-to-speech. | starred / Saved | MIT | 2026-08-18 |
+
+## 搜尋、資料擷取與情報 / Search, data & intelligence (11)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 讓 AI 代理讀取及搜尋多個網路內容平台。 | Give agents access to online content and search. | starred / Saved | MIT | 2026-09-15 |
+| [RapidAI/RapidOCR](https://github.com/RapidAI/RapidOCR) | 多語言 OCR 工具組，將圖片中的文字轉為可處理資料。 | OCR tools for extracting text from images. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [duanyytop/agents-radar](https://github.com/duanyytop/agents-radar) | 彙整多個 AI 資訊來源並產出中英雙語每日摘要。 | Produce bilingual digests of AI ecosystem news. | starred / Saved | MIT | 2026-09-15 |
+| [SauravKanchan/NewsAPI](https://github.com/SauravKanchan/NewsAPI) | 取得新聞資料的非官方 API 專案。 | An unofficial interface for retrieving news data. | starred / Saved | MIT | 2023-02-16 |
+| [nottelabs/notte](https://github.com/nottelabs/notte) | 為 AI 代理提供雲端瀏覽器與網頁自動化基礎設施。 | Cloud browser infrastructure for agent automation. | starred / Saved | NOASSERTION | 2026-09-15 |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 自適應網頁擷取框架，適用於單頁擷取及大規模爬取。 | A framework for adaptive web extraction and crawling. | starred / Saved | BSD-3-Clause | 2026-09-14 |
+| [google/langextract](https://github.com/google/langextract) | 從非結構化文字擷取結構化資訊，保留來源對應。 | Extract structured information with source grounding. | starred / Saved | Apache-2.0 | 2026-09-13 |
+| [searxng/searxng](https://github.com/searxng/searxng) | 可自行架設的搜尋聚合引擎。 | A self-hostable metasearch engine. | starred / Saved | AGPL-3.0 | 2026-09-15 |
+| [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) | 將不同網站內容轉為 RSS 訂閱來源。 | Convert website content into RSS feeds. | starred / Saved | AGPL-3.0 | 2026-09-15 |
+| [Vchen7629/Cyphria](https://github.com/Vchen7629/Cyphria) | 根據 Reddit 社群情緒整理產品排名。 | Rank products using Reddit community sentiment. | starred / Saved | MIT | 2026-03-05 |
+| [dmitriiweb/extract-emails](https://github.com/dmitriiweb/extract-emails) | 從指定網址擷取電子郵件地址及 LinkedIn 連結。 | Extract email addresses and LinkedIn links from URLs. | starred / Saved | MIT | 2026-01-02 |
+
+## 機器學習與教學 / Machine learning & education (16)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [MeridianAlgo/Learn-Quant](https://github.com/MeridianAlgo/Learn-Quant) | 以附註解的 Python、JavaScript 程式學習量化金融。 | Learn quantitative finance through annotated code. | starred / Saved | Unknown | 2026-08-04 |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 微軟生成式 AI 入門課程，透過範例學習建置應用。 | An introductory generative AI course with examples. | starred / Saved | MIT | 2026-09-15 |
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 小型語言模型從零訓練範例，供學習模型建構。 | Learn to train a small language model from scratch. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [microsoft/AI-Engineering-Coach](https://github.com/microsoft/AI-Engineering-Coach) | 協助學習與改善 AI 代理工程實務。 | Resources for improving AI engineering practice. | starred / Saved | MIT | 2026-09-13 |
+| [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | Google Cloud 生成式 AI 範例程式與 Notebook。 | Generative AI examples and notebooks for Google Cloud. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 讓代理自動執行單 GPU 模型訓練實驗。 | Automate single-GPU model-training experiments. | starred / Saved | Unknown | 2026-03-26 |
+| [bvezilic/Variational-autoencoder](https://github.com/bvezilic/Variational-autoencoder) | 在 MNIST 上以 PyTorch 實作變分自編碼器。 | A PyTorch variational autoencoder example on MNIST. | starred / Saved | Apache-2.0 | 2024-03-09 |
+| [eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) | 多種生成對抗網路的 PyTorch 實作。 | PyTorch implementations of GAN architectures. | starred / Saved | MIT | 2024-06-18 |
+| [uzaymacar/attention-mechanisms](https://github.com/uzaymacar/attention-mechanisms) | 以 TensorFlow／Keras 實作多種注意力機制。 | Attention mechanisms implemented with TensorFlow and Keras. | starred / Saved | MIT | 2024-02-06 |
+| [nathanhubens/Autoencoders](https://github.com/nathanhubens/Autoencoders) | 使用 Keras 實作簡單自編碼器網路。 | Simple autoencoder implementations in Keras. | starred / Saved | MIT | 2020-08-04 |
+| [ChawlaAvi/ai-engineering-hub](https://github.com/ChawlaAvi/ai-engineering-hub) | LLM、RAG 與 AI 代理應用的教學及實作範例。 | Practical tutorials on LLMs, RAG and agents. | starred / Saved | MIT | 2025-08-06 |
+| [thu-ml/tianshou](https://github.com/thu-ml/tianshou) | 以 PyTorch 建立及研究深度強化學習演算法。 | A PyTorch deep reinforcement-learning library. | starred / Saved | MIT | 2026-04-03 |
+| [karpathy/minGPT](https://github.com/karpathy/minGPT) | 精簡的 GPT PyTorch 實作，用於理解訓練流程。 | A minimal GPT training implementation in PyTorch. | starred / Saved | MIT | 2024-08-15 |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 逐步以 PyTorch 從零建構類 GPT 語言模型。 | Learn to build GPT-style models step by step. | starred / Saved | NOASSERTION | 2026-09-10 |
+| [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 用於訓練與改善 AI 代理行為的工具。 | Train and improve AI agent behavior. | starred / Saved | MIT | 2026-09-15 |
+| [quant-dhawan/quant-dhawan-lab](https://github.com/quant-dhawan/quant-dhawan-lab) | 量化金融動畫對應的 Python 教學程式。 | Python teaching code for quantitative finance animations. | starred / Saved | MIT | 2026-09-07 |
+
+## 求職與職涯 / Jobs & careers (3)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [Jakeschincariol/linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill) | LinkedIn 內容與個人品牌技能，輔助貼文、回覆及履歷頁面評估。 | Skills for LinkedIn content and profile workflows. | starred / Saved | MIT | 2026-09-13 |
+| [hikarushane/career-ops-desktop](https://github.com/hikarushane/career-ops-desktop) | 桌面求職管理工具，整合職缺搜尋、申請追蹤及面試準備。 | A desktop job-search and application-management tool. | starred / Saved | MIT | 2026-09-15 |
+| [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 本機 AI 求職工作流，評估職缺、調整 CV 及準備面試。 | Evaluate jobs, tailor applications and prepare interviews. | starred / Saved | MIT | 2026-09-14 |
+
+## RAG、知識圖譜與記憶 / RAG, graphs & memory (17)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 將程式碼索引成持久知識圖譜，供 MCP 查詢與理解。 | Persistent code knowledge graphs exposed through MCP. | starred / Saved | MIT | 2026-09-15 |
+| [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | 建立程式碼知識圖譜，縮小 AI 審查所需讀取的範圍。 | Code knowledge graphs for focused agent context. | starred / Saved | MIT | 2026-09-15 |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 將程式碼、文件與資料結構轉為可查詢的知識圖譜。 | Turn code and documents into queryable knowledge graphs. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 進階 RAG 技術教學與 Notebook 範例。 | Tutorial notebooks for advanced RAG techniques. | starred / Saved | NOASSERTION | 2026-09-15 |
+| [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 以知識圖譜管理 AI 上下文及可追溯資訊。 | Graph-based context infrastructure for accountable AI. | starred / Saved | MIT | 2026-09-15 |
+| [Deltaidiots/memoripilot](https://github.com/Deltaidiots/memoripilot) | 為 Copilot 保存跨工作階段的專案決策與上下文。 | Persistent project context for Copilot. | starred / Saved | MIT | 2025-07-03 |
+| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | 自架離線知識與教育伺服器，整合百科、課程及本機 AI。 | Self-hosted offline knowledge and education resources. | starred / Saved | Apache-2.0 | 2026-09-13 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 記錄並壓縮代理工作歷程，供後續工作階段使用。 | Capture and reuse agent context across sessions. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane) | 以 AI 整合搜尋資訊並回答問題的引擎。 | An AI-powered search and answering engine. | starred / Saved | MIT | 2026-09-01 |
+| [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | 非官方 NotebookLM Python API、命令列及代理技能。 | An unofficial Python interface and skills for NotebookLM. | starred / Saved | MIT | 2026-09-13 |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | 無伺服器的程式碼理解與知識圖譜工具。 | Serverless code intelligence and knowledge graphs. | starred / Saved | NOASSERTION | 2026-09-15 |
+| [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 以文件結構索引和推理支援不依賴向量資料庫的 RAG。 | Document-structure indexing for reasoning-based RAG. | starred / Saved | MIT | 2026-09-15 |
+| [toby-bridges/memx-memory](https://github.com/toby-bridges/memx-memory) | 為 AI 助理建立跨對話持久記憶。 | Persistent user memory for AI assistants. | starred / Saved | Unknown | 2026-02-24 |
+| [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | 可自行架設的 NotebookLM 類型研究筆記工具。 | A self-hosted research notebook inspired by NotebookLM. | starred / Saved | MIT | 2026-09-13 |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 以模組化管線建置檢索、路由及生成式 AI 應用。 | Build modular retrieval and generation pipelines. | starred / Saved | Apache-2.0 | 2026-09-15 |
+| [run-llama/LlamaIndexTS](https://github.com/run-llama/LlamaIndexTS) | 為 TypeScript 伺服器端 LLM 應用提供資料整合框架。 | A TypeScript data framework for LLM applications. | starred / Saved | MIT | 2026-03-11 |
+| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | 在多個代理之間共享個人記憶。 | Personal memory shared across agents. | starred / Saved | NOASSERTION | 2026-09-14 |
+
+## 模型評估與安全研究 / Model evaluation & safety research (2)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 評估 LLM 應用輸出的測試框架。 | A framework for evaluating LLM applications. | starred / Saved | Apache-2.0 | 2026-09-14 |
+| [elder-plinius/L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S) | 模型越獄提示集合，可作為授權安全測試研究材料。 | Jailbreak prompts for authorized model-safety research. | starred / Saved | AGPL-3.0 | 2026-02-17 |
+
+## 資安工具 / Cybersecurity tools (3)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 以 AI 代理執行授權範圍內的滲透測試。 | AI agents for authorized penetration testing. | starred / Saved | MIT | 2026-09-10 |
+| [AginSquash/2FA-Telegram](https://github.com/AginSquash/2FA-Telegram) | 透過 Telegram 取得雙重驗證碼，金鑰以加密檔保存。 | A Telegram interface for encrypted two-factor-authentication keys. | starred / Saved | MIT | 2020-08-18 |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 以原始碼分析及實際測試驗證網頁與 API 漏洞的工具。 | Validate web and API vulnerabilities through authorized testing. | starred / Saved | AGPL-3.0 | 2026-09-08 |
+
+## 物理與形式化研究 / Physics & formal research (1)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [FloatingPragma/observer-patch-holography](https://github.com/FloatingPragma/observer-patch-holography) | 有限觀測者一致性的物理研究，含 Lean 證明與模擬。 | Formal and computational research on observer consistency. | starred / Saved | NOASSERTION | 2026-09-14 |
+
+## SVG 與向量圖形 / SVG & vector graphics (6)
+
+| Repository | 中文用途 | English purpose | Origin / Priority | License | Last push |
+|---|---|---|---|---|---|
+| [svg/svgo](https://github.com/svg/svgo) | 移除 SVG 冗餘內容並縮小檔案，適合網站資產最佳化。 | Optimize SVG files by removing redundant information and reducing file size. | discovered / P1 | MIT | 2026-08-27 |
+| [svgdotjs/svg.js](https://github.com/svgdotjs/svg.js) | 以 JavaScript 建立、操控及動畫化 SVG 圖形。 | Create, manipulate and animate SVG graphics with JavaScript. | discovered / P2 | MIT (README) | 2026-08-04 |
+| [linebender/resvg](https://github.com/linebender/resvg) | 以 Rust 渲染 SVG，適合伺服器端轉圖及一致的靜態輸出。 | Render SVG with Rust for server-side rasterization and consistent static output. | discovered / P1 | MIT OR Apache-2.0 | 2026-09-09 |
+| [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 將點陣圖片轉為 SVG 向量圖，適合標誌及插圖轉換。 | Convert raster images into SVG vectors for logos and illustrations. | discovered / P1 | MIT | 2026-09-15 |
+| [SVG-Edit/svgedit](https://github.com/SVG-Edit/svgedit) | 在瀏覽器直接編輯 SVG 的開源向量繪圖工具。 | An open-source browser-based editor for SVG vector graphics. | discovered / P2 | MIT | 2026-08-05 |
+| [rough-stuff/rough](https://github.com/rough-stuff/rough) | 用程式產生手繪風格的 Canvas 與 SVG 圖形。 | Generate hand-drawn-style graphics for Canvas and SVG. | discovered / Reference | MIT | 2024-07-28 |
+
+## 本輪核查備註 / Review notes
+
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB#readme): 資料供應商、Workspace 或外部服務可能另收費。 / Data providers, Workspace and external services may have separate fees.
+- [polakowo/vectorbt](https://github.com/polakowo/vectorbt#readme): 含 Commons Clause；另有付費 PRO 版。採用前逐項核對用途與依賴授權。 / Includes the Commons Clause; a paid PRO edition also exists. Review use restrictions and dependency licenses.
+- [ranaroussi/quantstats](https://github.com/ranaroussi/quantstats#readme): 工具用途已核對，未運行策略或驗證回報；資料與交易服務可能另收費。 / Purpose reviewed; strategies and returns not tested. Data and trading services may carry fees.
+- [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader#readme): 工具用途已核對，未運行策略或驗證回報；資料與交易服務可能另收費。 / Purpose reviewed; strategies and returns not tested. Data and trading services may carry fees.
+- [microsoft/qlib](https://github.com/microsoft/qlib#readme): 工具用途已核對，未運行策略或驗證回報；資料與交易服務可能另收費。 / Purpose reviewed; strategies and returns not tested. Data and trading services may carry fees.
+- [QuantConnect/Lean](https://github.com/QuantConnect/Lean#readme): 開源引擎與商業雲端／資料服務分開；需核對自己的資料與券商連接。 / The engine is separate from commercial cloud/data services; check data and brokerage integrations.
+- [kernc/backtesting.py](https://github.com/kernc/backtesting.py#readme): 工具用途已核對，未運行策略或驗證回報；資料與交易服務可能另收費。 / Purpose reviewed; strategies and returns not tested. Data and trading services may carry fees.
+- [ccxt/ccxt](https://github.com/ccxt/ccxt#readme): 工具用途已核對，未運行策略或驗證回報；資料與交易服務可能另收費。 / Purpose reviewed; strategies and returns not tested. Data and trading services may carry fees.
+- [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph#readme): 框架授權與模型 API／雲端執行成本分開計算。 / Framework licensing is separate from model API and cloud execution costs.
+- [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai#readme): 框架授權與模型 API／雲端執行成本分開計算。 / Framework licensing is separate from model API and cloud execution costs.
+- [huggingface/smolagents](https://github.com/huggingface/smolagents#readme): 框架授權與模型 API／雲端執行成本分開計算。 / Framework licensing is separate from model API and cloud execution costs.
+- [agno-agi/agno](https://github.com/agno-agi/agno#readme): 框架授權與模型 API／雲端執行成本分開計算。 / Framework licensing is separate from model API and cloud execution costs.
+- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI#readme): 框架授權與模型 API／雲端執行成本分開計算。 / Framework licensing is separate from model API and cloud execution costs.
+- [openai/openai-agents-python](https://github.com/openai/openai-agents-python#readme): 框架授權與模型 API／雲端執行成本分開計算。 / Framework licensing is separate from model API and cloud execution costs.
+- [microsoft/agent-framework](https://github.com/microsoft/agent-framework#readme): 框架授權與模型 API／雲端執行成本分開計算。 / Framework licensing is separate from model API and cloud execution costs.
+- [microsoft/autogen](https://github.com/microsoft/autogen#readme): README：維護模式，不再新增功能；新專案優先核對 Microsoft Agent Framework。 / README: maintenance mode, with no new features; evaluate Microsoft Agent Framework for new projects.
+- [Aider-AI/aider](https://github.com/Aider-AI/aider#readme): 最近推送為 2026-05-22；需核對所用模型的相容性及費用。 / Last push: 2026-05-22; check compatibility and costs for the selected model.
+- [astral-sh/uv](https://github.com/astral-sh/uv#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [astral-sh/ruff](https://github.com/astral-sh/ruff#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [continuedev/continue](https://github.com/continuedev/continue#readme): README：不再積極維護、已發布最終 2.0.0；列作歷史參考。 / README: no longer actively maintained, final 2.0.0 release; retained as a historical reference.
+- [microsoft/playwright](https://github.com/microsoft/playwright#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [marimo-team/marimo](https://github.com/marimo-team/marimo#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [casey/just](https://github.com/casey/just#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [svg/svgo](https://github.com/svg/svgo#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [svgdotjs/svg.js](https://github.com/svgdotjs/svg.js#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [linebender/resvg](https://github.com/linebender/resvg#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [visioncortex/vtracer](https://github.com/visioncortex/vtracer#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [SVG-Edit/svgedit](https://github.com/SVG-Edit/svgedit#readme): 根據官方簡介與 README 片段整理；未安裝或執行。 / Based on official metadata and README excerpts; not installed or executed.
+- [rough-stuff/rough](https://github.com/rough-stuff/rough#readme): 最近推送為 2024-07-28；更新頻率低，不能僅因未封存而稱為活躍維護。 / Last push: 2024-07-28. Low update frequency; unarchived does not establish active maintenance.
